@@ -39,6 +39,8 @@ To run this code ensure that all packages, libraries, APIs, etc. that are mentio
 
 To begin training, open and run the tutorial_bot.py file. Check to make sure the number of instances of Rocket League isn't too high for your computer to handle. Next, ensure that BakkesMod is running so that it can inject into Rocket League as the game is launching. After hitting run, Rocket League should automatically open up and take you to an exhibition match. The in-game timer will countdown and then the model will begin training. 
 
+Additionally, it is important to clear out the "logs," "models," and "mmr_models" before you start training -- if you would like to start with a brand new bot. 
+
 ### Uploading Model to RLBot for Evaluation
 
 If you would like to upload your own model, insert your <model_name>.zip file into the RLBot Config directory. Next, open the agent class and identify this section of code:
